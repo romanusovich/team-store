@@ -79,7 +79,7 @@ html {
 }
 
 .nav__list .nav__link,
-.header__card-link {
+.header__cart-link {
   font-size: 1.2rem;
   font-weight: 700;
   color: inherit;
@@ -95,7 +95,7 @@ html {
   border-bottom: 3px solid #2f1111;
 }
 
-.header__card-link {
+.header__cart-link {
   position: relative;
 
   span {

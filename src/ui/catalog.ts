@@ -14,8 +14,8 @@ const prodList = PRODUCTS.map((product) => {
   title.textContent = product.name;
   const price = createElement('span', '', 'products__price');
   price.textContent = product.price.toString();
-  const button = createElement('button', 'add-card', 'products__btn')
-  button.textContent = 'add to card';
+  const button = createElement('button', 'add-cart', 'products__btn')
+  button.textContent = 'add to cart';
   button.addEventListener('click', () => {});
   item.append(img, title, price, button);
   return item;
