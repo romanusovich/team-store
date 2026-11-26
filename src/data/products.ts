@@ -1,4 +1,4 @@
-export const CATEGORIES = ["Phones", "Laptops", "Tablets"];
+export const CATEGORIES = ["All", "Phones", "Laptops", "Tablets"];
 
 export type Category = typeof CATEGORIES[number];
 
@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     category: "Phones",
     price: 1199,
     description: "Флагманский смартфон Apple с чипом A20 Pro, подэкранным Face ID и продвинутой системой камер.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/iphone18promax.webp",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const PRODUCTS: Product[] = [
     category: "Phones",
     price: 1299,
     description: "Топовый смартфон Samsung со встроенным стилусом S Pen, 200-мегапиксельной камерой и дисплеем Dynamic AMOLED 2X.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/samsungs26ultra.webp",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const PRODUCTS: Product[] = [
     category: "Phones",
     price: 1099,
     description: "Большой флагман от Google на базе процессора Tensor G6 с передовыми ИИ-функциями и лучшей ночной съемкой.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/pixel11proxl.webp",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const PRODUCTS: Product[] = [
     category: "Phones",
     price: 999,
     description: "Мощный камерофон с оптикой Leica, сверхбыстрой зарядкой и безрамочным LTPO OLED-экраном.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/xiaomi18promax.webp",
   },
 
   // Laptops
@@ -53,7 +53,7 @@ export const PRODUCTS: Product[] = [
     category: "Laptops",
     price: 1999,
     description: "Профессиональный ноутбук с дисплеем Liquid Retina XDR, чипом серии M и рекордной автономностью.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/macbookpro14.webp",
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
     category: "Laptops",
     price: 3499,
     description: "Экстремальный игровой ноутбук со встроенной системой жидкостного охлаждения и Mini-LED экраном.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/lenovolegion9.webp",
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     category: "Laptops",
     price: 1799,
     description: "Тонкий и легкий сенсорный ультрабук с глубокой интеграцией функций искусственного интеллекта Copilot+.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/surfacelaptopultra.webp",
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ export const PRODUCTS: Product[] = [
     category: "Laptops",
     price: 2299,
     description: "Мобильная рабочая станция для создателей контента с OLED-экраном 4K и контроллером ASUS DialPad.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/asusproartp16.webp",
   },
 
   // Tablets
@@ -87,7 +87,7 @@ export const PRODUCTS: Product[] = [
     category: "Tablets",
     price: 999,
     description: "Сверхтонкий планшет с тандемным OLED-дисплеем Ultra Retina XDR и поддержкой Apple Pencil Pro.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/ipadpro.webp",
   },
   {
     id: 10,
@@ -95,7 +95,7 @@ export const PRODUCTS: Product[] = [
     category: "Tablets",
     price: 1199,
     description: "Огромный 14.6-дюймовый планшет с защитой от воды IP68, стилусом S Pen в комплекте и режимом DeX.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/galaxytabs12ultra.webp",
   },
   {
     id: 11,
@@ -103,7 +103,7 @@ export const PRODUCTS: Product[] = [
     category: "Tablets",
     price: 849,
     description: "Легкий планшет с антибликовым экраном PaperMatte, идеально подходящий для рисования и работы с документами.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/matepadpro12.webp",
   },
   {
     id: 12,
@@ -111,6 +111,6 @@ export const PRODUCTS: Product[] = [
     category: "Tablets",
     price: 699,
     description: "Флагманский планшет с процессором Snapdragon 8 Elite, 11.2-дюймовым экраном 3.2K (144 Гц) и быстрой зарядкой 67 Вт.",
-    imageUrl: "https://placehold.co",
+    imageUrl: "public/xiaomipad8pro.webp",
   }
 ];
