@@ -55,9 +55,8 @@ export function increaseQuantity(itemId: number): void {
 export function decreaseQuantity(itemId: number): void {
     const existingItem = cart.find(cartItem => cartItem.id === itemId);
     if (existingItem) {
-        existingItem.quantity -= 1;
-        if (existingItem.quantity <= 0) {
-            removeItem(itemId);
+        if (existingItem.quantity > 1) {
+            existingItem.quantity -= 1;
         }
     }
     saveCart();
