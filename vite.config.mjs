@@ -6,7 +6,7 @@ export default defineConfig({
       input: {
         about: './about.html',
         catalog: './catalog.html',
-        card: './card.html'
+        cart: './cart.html'
       },
     },
   },
